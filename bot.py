@@ -18,4 +18,4 @@ async def on_member_join(member):
     if age < timedelta(days=15):
         await member.kick(reason="Account too new")
 
-bot.run(os.environ["MTQ1ODE4ODg3MTMxMjYwNTM0NQ.GZL0VJ.cICLvmRzYXUYfCQ8u-E29O08VWdybkkbxACmXBg"])
+bot.run(os.environ["DISCORD_TOKEN"])
